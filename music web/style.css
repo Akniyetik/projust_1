@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.left-head{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    padding: 50px;
+}
+.left-button{
+    position: relative;
+    left: 50px;
+    bottom: 28px;
+}
+.img{
+    grid-row: 1;
+}
+.sea{
+    grid-row: 2;
+}
+.TOTAL{
+    width: 15%;
+    height: 100vh;
+    background-color: black;
+}
